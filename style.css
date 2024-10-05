@@ -1,0 +1,120 @@
+/* ------------------- Definindo Padrões ---------------*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
+}
+
+/* ---------------Estilizando Cabeçalho --------------------*/
+
+header {
+    background: rgb(146, 146, 245);
+    max-height: 150px;
+    text-align: center;
+}
+
+#name_logo {
+    padding: 16px;
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#menu_pesquisa {
+    background: rgb(148, 148, 201);
+    max-height: 60px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu {
+    padding: 4px 16px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+    padding: 18px;
+}
+
+a:hover {
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+/* ---------------Estilizando Área Cardápio --------------------*/
+
+.area_cardapio {
+    margin: 24px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+    background: rgb(246, 243, 243);
+    border-radius: 12px;
+}
+
+.card_lanche {
+    padding: 12px;
+    margin-left: 40px;
+    margin-top: 40px;
+    height: 310px;
+    width: 220px;
+    background: rgb(229, 225, 225);
+    border-radius: 12px;
+}
+
+.imagens {
+    height: 140px;
+    width: 220px;
+    border-radius: 12px;
+}
+
+.name_lanche {
+    padding: 12px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+p {
+    margin-top: 0px;
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+
+.btn, .price {
+    display: inline-block;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 12px 6px;
+    margin-left: 6px;
+    color: white;
+    background: rgb(146, 146, 245);
+    border-radius: 6px;
+}
+
+
+/* ---------------Estilizando Footer --------------------*/
+
+footer {
+    background: rgb(146, 146, 245);
+    font-size: 20px;
+    height: 60px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
